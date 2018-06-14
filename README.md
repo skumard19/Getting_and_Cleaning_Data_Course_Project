@@ -26,4 +26,3 @@ Note - This script requires the `dplyr` package (version 0.4.3 was used).
 - Appropriately label the data set with descriptive variable names.
 - Create a second, independent tidy set with the average of each variable for each activity and each subject.
 - Write the data set to the `tidy_data.txt` file.
-
