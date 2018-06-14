@@ -3,9 +3,9 @@
 This repository contains the following files:
 
 - `README.md`, this file, which provides an overview of the data set and how it was created.
-- `tidy_data.txt`, which contains the data set.
-- `CodeBook.md`, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
-- `Getting_and_Cleaning_Data_Project1.R`, the R script that was used to create the final data set `tidy_data.txt`
+- `CodeBook.md`, describes the contents of the data set (data, variables and transformations used to generate the data).
+- `run_analysis.R`, the R script that was used to create the final data set.
+- `tidy_data.txt`, which contains the final data set.
 
 ## Introduction
 One of the most exciting areas in all of data science right now is wearable computing - see for example [this article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/). Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users.
@@ -14,7 +14,7 @@ In this project, data collected from the accelerometer and gyroscope of the Sams
 
 ## Creating the final data set
 
-The R script `Getting_and_Cleaning_Data_Project1.R` can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):
+The R script `run_analysis.R` can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):
 
 Note - This script requires the `dplyr` package (version 0.4.3 was used).
 
